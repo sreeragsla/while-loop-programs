@@ -2,7 +2,7 @@
 
 L=[11,2,44,66,77]
 ip=0
-while ip<len(l):
+while ip<len(L):
     if L[ip]%2==0:
         L[ip]='even'
     else:
