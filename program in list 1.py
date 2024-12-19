@@ -1,14 +1,14 @@
-#l=[11,2,44,66,77] o/p-['odd','even','even','even','odd']
+#L=[11,2,44,66,77] o/p-['odd','even','even','even','odd']
 
-l=[11,2,44,66,77]
+L=[11,2,44,66,77]
 ip=0
 while ip<len(l):
-    if l[ip]%2==0:
-        l[ip]='even'
+    if L[ip]%2==0:
+        L[ip]='even'
     else:
-        l[ip]='odd'
+        L[ip]='odd'
     ip+=1
-print(l)
+print(L)
 
 '''
 iteration
